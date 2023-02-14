@@ -1,0 +1,45 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/bingoid/Desktop/Godot/penguin/penguin.csproj": {}
+  },
+  "projects": {
+    "/home/bingoid/Desktop/Godot/penguin/penguin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bingoid/Desktop/Godot/penguin/penguin.csproj",
+        "projectName": "penguin",
+        "projectPath": "/home/bingoid/Desktop/Godot/penguin/penguin.csproj",
+        "packagesPath": "/home/bingoid/.nuget/packages/",
+        "outputPath": "/home/bingoid/Desktop/Godot/penguin/.mono/temp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/bingoid/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "runtimeIdentifierGraphPath": "/usr/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
