@@ -1,8 +1,0 @@
-/home/bingoid/Desktop/Godot/penguin/.mono/temp/bin/Debug/penguin.dll
-/home/bingoid/Desktop/Godot/penguin/.mono/temp/bin/Debug/penguin.pdb
-/home/bingoid/Desktop/Godot/penguin/.mono/temp/obj/Debug/penguin.csproj.AssemblyReference.cache
-/home/bingoid/Desktop/Godot/penguin/.mono/temp/obj/Debug/penguin.AssemblyInfoInputs.cache
-/home/bingoid/Desktop/Godot/penguin/.mono/temp/obj/Debug/penguin.AssemblyInfo.cs
-/home/bingoid/Desktop/Godot/penguin/.mono/temp/obj/Debug/penguin.csproj.CoreCompileInputs.cache
-/home/bingoid/Desktop/Godot/penguin/.mono/temp/obj/Debug/penguin.dll
-/home/bingoid/Desktop/Godot/penguin/.mono/temp/obj/Debug/penguin.pdb
