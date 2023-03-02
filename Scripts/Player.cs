@@ -7,12 +7,6 @@ public class Player : KinematicBody2D
     public float Speed;
     public Vector2 velocity;
 
-    // Called when the node enters the scene tree for the first time.
-    public override void _Ready()
-    {
-        
-    }
-
     private float mouseMove = 0;
 
     public override void _Input(InputEvent @event)
@@ -31,6 +25,16 @@ public class Player : KinematicBody2D
         Rotation = Mathf.Clamp(Rotation, -Mathf.Pi/2, Mathf.Pi/2);
         velocity = (Transform.x + Vector2.Right / 2) * Speed;
 
-        MoveAndSlide(velocity, Vector2.Up);
+        var collision = MoveAndCollide(velocity * delta);
+
+        if (collision != null) {
+            GameOver();
+        }
+
+    }
+    
+    public void GameOver()
+    {
+        throw new NotImplementedException();
     }
 }

@@ -20,9 +20,5 @@ public class Main : Node2D
         player.Position = new Vector2(131, player.Position.y);
 
         GetNode<Sprite>("Sprite").Position -= Vector2.Right * player.velocity * delta;
-
-        player.Speed += delta * 2;
-
-        GD.Print(player.Speed);
     }
 }
